@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Emergency
+Bundle-SymbolicName: top.geomatics.toast.backend.emergency
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: top.geomatics
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Service-Component: OSGI-INF/component.xml
+Bundle-ActivationPolicy: lazy
+Import-Package: javax.servlet;version="3.1.0",
+ javax.servlet.http;version="3.1.0",
+ org.osgi.service.http;version="1.2.1",
+ top.geomatics.toast.core,
+ top.geomatics.toast.core.emergency
